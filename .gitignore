@@ -1,0 +1,17 @@
+# Passwords and Secrets (CRITICAL)
+.env
+backend/.env
+frontend/.env
+
+# Large Dependency Folders (They are rebuilt on each computer)
+node_modules/
+backend/node_modules/
+frontend/node_modules/
+
+# Build folders
+frontend/build/
+dist/
+
+# System junk
+.DS_Store
+Thumbs.db
